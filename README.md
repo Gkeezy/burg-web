@@ -29,9 +29,21 @@ That prints a temporary `https://….trycloudflare.com` relay. Friends can use t
 
 `?ws=wss://….trycloudflare.com/ws`
 
-## Controls
+## Controls (v7)
 
-Move WASD, jump Space, sprint Shift, crouch Ctrl/C, roll Q/RMB, web E, throw/tag as in desktop build.
+| Who | Key | Action |
+|---|---|---|
+| everyone | WASD + mouse | move / look |
+| everyone | Space | jump |
+| everyone | Shift (hold) | sneak: slow, quiet, small hitbox |
+| everyone | Q or mouse 4 | dash where you look |
+| everyone | Right mouse (hold) | slingshot: swing, release to fling |
+| seekers | Left mouse | tag (catch) |
+| seekers | E | stun rock |
+| seekers | (always on) | compass: points roughly at the nearest hider, pings every ~1 s, HOT / WARM / COLD |
+| menus | Esc / Tab / F10 | free mouse / lobby / leave |
+
+Version: see `version.txt` (host and friends must match; currently 0.4.0).
 
 ## Repo
 
